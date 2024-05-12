@@ -10,3 +10,13 @@ values ('c_docente','{TITULO}',
         'en {DOMICILIO_DOCENTE},  y correo electrónico {CORREO_DOCENTE} quien en adelante se ' ||
         'denomina PROFESOR(A); en los términos y condiciones siguientes:',
         'CLAUSULA PRIMERA.- En atención a las necesidades de contar con los servicio de un profesional docente, se adjudicó la palza orgánica/eventual/temporal/horas de libre disponibilidad a don(ña) {NOMBRE_DOCENTE} para desempeñar funciones docentes.');
+
+----DATA PARA GENERAR REPORTE PDF USANDO JASPERSOFT
+insert into employee (nombre, tipo, numero, cargo, estado) values
+                    ('Jose Nuñez', 'DNI', '88888888', 'Desarrollador Web', 'Activo');
+insert into employee (nombre, tipo, numero, cargo, estado) values
+    ('Ingrid Cruz', 'DNI', '88888888', 'Desarrolladora', 'Activa');
+insert into employee (nombre, tipo, numero, cargo, estado) values
+    ('Leydi Cholay', 'DNI', '88888888', 'Analista', 'Activa');
+
+
