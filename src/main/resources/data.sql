@@ -19,4 +19,3 @@ insert into employee (nombre, tipo, numero, cargo, estado) values
 insert into employee (nombre, tipo, numero, cargo, estado) values
     ('Leydi Cholay', 'DNI', '88888888', 'Analista', 'Activa');
 
-
